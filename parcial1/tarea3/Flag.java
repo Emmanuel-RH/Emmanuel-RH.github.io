@@ -1,6 +1,6 @@
 //Flag.java
 //Autor: Emmanuel Reyes
-//Fecha: 04 Septiembre 2022
+//Date: 04 Septiembre 2022
 //Institución: Universidad Veracruzana
 
 class Flag {  //Name of program
