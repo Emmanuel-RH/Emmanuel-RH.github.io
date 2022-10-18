@@ -22,7 +22,7 @@ class ForNumbers {
       for (int i = n; i >= 2; i=i-2) {
         System.out.println(i); 
       }
-      System.out.println("Impares entre 18 y 50 en descendente");
+      System.out.println("Impares entre 10 y 50 en descendente");
       n=50;
       for (int i = n; i >= 10; i=i-3) {
         System.out.println(i); 
