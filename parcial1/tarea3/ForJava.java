@@ -1,4 +1,4 @@
-// Program to print a text 5 times
+// El programa imprime 5 lineas de texto
 
 class ForJava {
     public static void main(String[] args) {
