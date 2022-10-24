@@ -1,6 +1,8 @@
 # 📍¡Hola!
 Bienvenido a mi respositorio.
 
-![12063795_4884785](https://user-images.githubusercontent.com/112723617/197631636-93e13a75-bf3f-43d5-8d40-afa746e7bf51.jpg)
+![24ace3e6-9e7c-432d-962c-64b48262aa2f](https://user-images.githubusercontent.com/112723617/197632207-87df54e1-8a7e-4b72-a323-dcd22940cc56.png)
 
 # 📍Tareas y códigos.
+
+
