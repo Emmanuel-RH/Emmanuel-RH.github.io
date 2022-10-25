@@ -5,5 +5,5 @@ Bienvenido a mi respositorio donde existen codigos.
 
 # 📍Redes Sociales
 
-Twitter: https://twitter.com/derek_rh_ <br>
+Twitter: https://twitter.com/derek_rh <br>
 Linkedin: www.linkedin.com/in/josé-emmanuelreyeshernández
