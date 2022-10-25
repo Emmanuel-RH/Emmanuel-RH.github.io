@@ -1,3 +1,6 @@
+//Programa: 1
+//Imprime la serie Fibonacci
+
 package parcial1.tarea4;
 
 class SerieFibonacci {
