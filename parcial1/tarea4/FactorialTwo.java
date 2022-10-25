@@ -10,8 +10,12 @@ public class FactorialTwo {
             System.out.println("Ingrese un numero:");
             int num = sc.nextInt();
 
-            //mostramos resultados
-            System.out.println("El factorial de: " + num + " es:" + factorial(num));
+            if ( (num > 20) || (num < 0) )  {
+                System.out.println("Numero Invalido");
+              } else {
+                //mostramos resultados
+                System.out.println("El factorial de: " + num + " es:" + factorial(num));
+              }
         }
     }
 
