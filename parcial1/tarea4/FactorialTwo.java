@@ -1,8 +1,6 @@
 //Programa: 2
 //Calcular y validar un factorial
 
-package parcial1.tarea4;
-
 import java.util.Scanner;
 
 public class FactorialTwo {
