@@ -1,6 +1,6 @@
-package parcial1.tarea4;
+//Programa 3
+//Calcular una función cúbica
 
-public class cubica {
-    
+public class Cubica{
     
 }
