@@ -5,14 +5,16 @@ import java.util.Scanner;
 public class CalculoPi {
 
     public static void main(String[] args) {
-        Iteracion i=new Iteracion();
+        Iteracion myPi=new Iteracion();
+        myPi.calculoPi();
+        //double result = i.
     }
 }
 
 class Iteracion{
     private double n,areaQ,areaC,r,pi;
 
-    public Iteracion(){
+    public void calculoPi(){
         System.out.println("Ingrese la longitud n del cuadrado: ");
         try (Scanner s = new Scanner(System.in)) {
             n=s.nextDouble();
@@ -29,12 +31,13 @@ class Iteracion{
             for (double x=-n/2;x<n/2+1;x++){
 
                 if((x*x)+(y*y)<=r*r){
-                    System.out.print("* ");
+                   // System.out.print("* ");
                     areaC+=1.0;
-                }else
-                    System.out.print("  ");
+                }
+                //else
+                 //   System.out.print("  ");
             }
-            System.out.println();
+            //System.out.println();
         }
         pi=(areaC/areaQ)*4;
         System.out.println("area del cuadrado: "+areaQ+"\n area del circulo: "+areaC+"\n pi aproximado: "+pi);
