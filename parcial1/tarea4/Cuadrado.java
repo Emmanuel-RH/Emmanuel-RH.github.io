@@ -10,7 +10,7 @@ public class Cuadrado {
     int n;
    
     public void dato() {
-        System.out.print("Por favor ingrese lado del cuadrado: ");
+        System.out.print("Ingresa lado del cuadrado: ");
         n = teclado.nextInt();
     }
    
@@ -23,7 +23,7 @@ public class Cuadrado {
                 System.out.println("");
             }
         }else {
-            System.out.println("Por favor ingrese un numero entre 2 y 50");
+            System.out.println("Ingresa un numero entre 2 y 50");
         }
     }
 
