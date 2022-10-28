@@ -1,53 +1,35 @@
 //Programa 6
 //Capturar n, validar que sea un entero en el rango de 0 a 9 y usando ciclos producir un cuadrado de n dimension
 
-import javax.swing.JOptionPane;
-
+import java.util.Scanner;
+ 
 public class Cuadrado {
-
-    public static void cubo(int entrada_datos) {
-
-        if (entrada_datos>=0 && entrada_datos<=9) {
-      
-          for (int i=0;i<entrada_datos;i++) {
-             System.out.print("*");
-
+   
+    Scanner teclado = new Scanner(System.in);
+   
+    int n;
+   
+    public void dato() {
+        System.out.print("Por favor ingrese lado del cuadrado: ");
+        n = teclado.nextInt();
+    }
+   
+    public void proceso() {
+        if(n >= 2 && n <= 50) {
+            for (int i = 1; i <= n; i++) {
+                for (int j = 1; j <= n; j++) {
+                    System.out.print(" *");
+                }
+                System.out.println("");
             }
-
-          System.out.println();
-
-          for (int i=0;i<entrada_datos-2;i++) {
-             System.out.print("*");
-
-             for (int j= 0; j<entrada_datos-2; j++) {
-
-                 System.out.print(" ");
-
-                } 
-
-              System.out.println("*");
-
-            }
-
-          for (int i=0; i<entrada_datos; i++) {
-
-             System.out.print("*");
-
-            }
-
-        } else {
-
-            JOptionPane.showMessageDialog(null, "Error \n El numero que usted ingreso no es valido");
-        
+        }else {
+            System.out.println("Por favor ingrese un numero entre 2 y 50");
         }
-     
     }
 
     public static void main(String[] args) {
-
-        int entrada_datos = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingresa en numeros el tamaño que deseas que tenga \n la impresión del cuadrado en un rango de 0 a 9: "));
-        cubo(entrada_datos);
-
+        Cuadrado fc = new Cuadrado();
+        fc.dato();
+        fc.proceso();
     }
-
 }

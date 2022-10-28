@@ -31,7 +31,5 @@ public class Triangulo {
 
        int entrada_datos = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingresa en numeros el tamaño que deseas que tenga \n la impresión del triangulo en un rango de 0 a 9: "));
        trian(entrada_datos);
-
     }
-
 }
