@@ -13,6 +13,7 @@ public class MatrizTriangularSuperior {
         };
         System.out.println("Matriz Triangular Superior:");
 
+        //agregamos un for en donde la condicion sea aumentar un numero por cada fila
         for (int i = 0; i < 5; ++i){
             for (int j = 0; j < 5; ++j){
                 if (i<=j){
@@ -21,6 +22,7 @@ public class MatrizTriangularSuperior {
             }
         }
 
+        //en este for acoplamos el anterior for con la plantilla de 0
         for (int i = 0; i < 5; ++i){
             for (int j = 0; j < 5; ++j){
                 System.out.print(a[i][j] + " ");

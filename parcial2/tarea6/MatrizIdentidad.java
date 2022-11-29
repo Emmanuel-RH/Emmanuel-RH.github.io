@@ -14,10 +14,12 @@ public class MatrizIdentidad {
         };
         System.out.println("Matriz Identidad: ");
         
+        //añadimos un for donde indicamos al programa donde poner los numeros 1 
         for (int i = 0; i < a.length; ++i){
             a[i][i] = 1;
         }
 
+        //este for pone la condición de la escala que tiene que realizar y hasta que cantidad numeros
         for (int i = 0; i < 4; ++i){
             for (int j = 0; j < 4; ++j){
                 System.out.print(a[i][j] + " ");
