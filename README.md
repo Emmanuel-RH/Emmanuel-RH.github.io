@@ -6,7 +6,7 @@ Bienvenido a mi respositorio.
 
 # 📍Redes Sociales
 
-Twitter: https://twitter.com/derek_rh <br>
+Twitter: https://twitter.com/derek_rh_ <br>
 Linkedin: www.linkedin.com/in/josé-emmanuelreyeshernández <br> <br>
 
 # 📍Sobre este respositorio...
