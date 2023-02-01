@@ -1,8 +1,8 @@
 package ejercevacaciones.ejercicios1;
 
-public class HolamundoDos {
+public class HolaMundoDos {
     public static void main (String[] args){
-    
-            System.out.print("Hola Mundo, ¿Cómo estas?");
+
+        System.out.println("Hola Mundo!");
     }
 }
